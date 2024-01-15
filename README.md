@@ -25,6 +25,42 @@ Unfortunately, due to time constraints, I wasn't able to implement all the featu
 I enjoyed building this app, and perhaps I will return to it some day to add more features to my plan.
 
 
+
+
+## Some quirks
+
+Something I've picked up from my last project:
+
+```swift
+var model: Any? {
+    didSet {
+        guard let model = model as? SomeModel else { return }
+
+        // Filling SomeView with data from our universal model
+    }
+}
+```
+
+This makes SomeView more universal & reusable, especially useful when used in Table/Collection Views. It allows us to pass different models into the same SomeView onto models we can process separately depending on said model.
+
+For example:
+
+```swift
+var model: Any? {
+    didSet {
+        if let model = model as? SomeModel0 {
+            // Filling SomeView with data from SomeModel0
+        } else if let model = model as? SomeModel1 {
+            // Filling SomeView with data from SomeModel1
+        }    
+    }
+}
+```
+
+It has its limitations, but it's also incredibly useful when dealing with complex interfaces built with Table/Collection Views.
+
+
+
 ## Screenshots
 <div>
     <img src="https://raw.githubusercontent.com/MrVet14/GalleryApp/master/Images/screen0.png" width="200" height="420">
