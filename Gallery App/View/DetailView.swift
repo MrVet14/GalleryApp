@@ -124,7 +124,7 @@ class PhotoDetailView: UIViewController {
             authorLabel.text = "Author: \(model.user.name)"
             descriptionLabel.text = model.description
             createdAtLabel.text = "Created at: \(model.createdAt)"
-            likeButton.model = RealmDBManager.shared.isLiked(model.id)
+            likeButton.model = model.id
         }
     }
 

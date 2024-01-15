@@ -19,9 +19,9 @@ class LikeButtonView: UIView {
 
     var model: Any? {
         didSet {
-            guard let isLiked = model as? Bool else { return }
+            guard let photoID = model as? String else { return }
 
-            self.isLiked = isLiked
+            self.isLiked = RealmDBManager.shared.isLiked(photoID)
             updateLikeStatus()
         }
     }

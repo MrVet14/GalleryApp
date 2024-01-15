@@ -62,7 +62,7 @@ class PhotoCollectionViewCell: UICollectionViewCell {
             let photoURL = URL(string: model.urls.small)
             imageView.kf.setImage(with: photoURL, options: [.transition(.fade(0.1))])
             nameLabel.text = model.user.name
-            likeButton.model = RealmDBManager.shared.isLiked(model.id)
+            likeButton.model = model.id
         }
     }
 

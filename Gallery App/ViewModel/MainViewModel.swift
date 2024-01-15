@@ -58,7 +58,7 @@ class MainViewModel: UIViewController {
     }
 
     func loadMoreData() {
-        guard !isLoadingData else { return }
+        guard !isLoadingData && !displayLikedPhotos else { return }
         isLoadingData = true
 
         URLSessonNetworkManager.shared.fetchPhotos(page: currentPage) { [weak self] result in
