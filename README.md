@@ -41,7 +41,7 @@ var model: Any? {
 }
 ```
 
-This makes SomeView more universal & reusable, especially useful when used in Table/Collection Views. It allows us to pass different models into the same SomeView onto models we can process separately depending on said model.
+This makes SomeView more universal & reusable, especially useful when used in Table/Collection Views. It allows us to pass different models into the same SomeView, diferent models we can process separately depending on said model.
 
 For example:
 
