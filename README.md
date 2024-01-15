@@ -23,20 +23,25 @@ I implemented a gallery app with a dynamic layout, based on UICollectionView. In
 Unfortunately, due to time constraints, I wasn't able to implement all the features I intended to build, so I focused on the required ones. But, I attached my journal, so you can see the planning for the project.
 
 I enjoyed building this app, and perhaps I will return to it some day to add more features to my plan.
-## Screenshots
 
-![App Screenshot](/Images/1.jpeg?raw=true "screen0")
-![App Screenshot](/Images/1.jpeg?raw=true "screen1")
-![App Screenshot](/Images/1.jpeg?raw=true "screen2")
-![App Screenshot](/Images/1.jpeg?raw=true "screen3")
+
+## Screenshots
+<div>
+    <img src="https://raw.githubusercontent.com/MrVet14/GalleryApp/master/Images/screen0.png" width="200" height="420">
+    <img src="https://raw.githubusercontent.com/MrVet14/GalleryApp/master/Images/screen1.png" width="200" height="420">
+    <img src="https://raw.githubusercontent.com/MrVet14/GalleryApp/master/Images/screen2.png" width="200" height="420">
+    <img src="https://raw.githubusercontent.com/MrVet14/GalleryApp/master/Images/screen3.png" width="200" height="420">
+</div>
 
 ## Behind the scene planning
-![App Screenshot](/Images/1.jpeg?raw=true "myScan0")
-![App Screenshot](/Images/1.jpeg?raw=true "myScan1")
-![App Screenshot](/Images/1.jpeg?raw=true "myScan2")
-![App Screenshot](/Images/1.jpeg?raw=true "myScan3")
-![App Screenshot](/Images/1.jpeg?raw=true "myScan4")
 
+<div>
+    <img src="https://raw.githubusercontent.com/MrVet14/GalleryApp/master/Images/myScan0.jpg" width="200" height="300">
+    <img src="https://raw.githubusercontent.com/MrVet14/GalleryApp/master/Images/myScan1.jpg" width="200" height="300">
+    <img src="https://raw.githubusercontent.com/MrVet14/GalleryApp/master/Images/myScan2.jpg" width="200" height="300">
+    <img src="https://raw.githubusercontent.com/MrVet14/GalleryApp/master/Images/myScan3.jpg" width="200" height="300">
+    <img src="https://raw.githubusercontent.com/MrVet14/GalleryApp/master/Images/myScan4.jpg" width="200" height="300">
+</div>
 
 
 
