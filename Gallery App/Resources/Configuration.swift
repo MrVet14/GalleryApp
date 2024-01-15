@@ -23,21 +23,21 @@ enum Configuration: String {
         return configuration
     }()
 
-    static var baseURL: URL {
+    static var baseURL: String {
         switch current {
-        case .develop, .production: return URL(string: "")!
+        case .develop, .production: "https://api.unsplash.com"
         }
     }
 
     static var accessKey: String {
         switch current {
-        case .develop, .production: return "zuQbME8fxNsaYVs8ti9o2BeNfvl5I21VMb5h43CmPFs"
+        case .develop, .production: "zuQbME8fxNsaYVs8ti9o2BeNfvl5I21VMb5h43CmPFs"
         }
     }
 
     static var secretKey: String {
         switch current {
-        case .develop, .production: return "buxmx6JeTVbWGOzcMctn0XMbSOLjSPoK57TJcWyVz1g"
+        case .develop, .production: "buxmx6JeTVbWGOzcMctn0XMbSOLjSPoK57TJcWyVz1g"
         }
     }
 }

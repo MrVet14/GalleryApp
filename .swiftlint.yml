@@ -10,7 +10,6 @@ analyzer_rules:
 
 opt_in_rules:
   - array_init
-  - attributes
   - closure_end_indentation
   - closure_spacing
   - collection_alignment
@@ -26,7 +25,6 @@ opt_in_rules:
   - empty_xctest_method
   - enum_case_associated_values_count
   - explicit_init
-  - extension_access_modifier
   - fallthrough
   - fatal_error_message
   - file_header
@@ -75,13 +73,6 @@ opt_in_rules:
   - vertical_whitespace_opening_braces
   - xct_specific_matcher
   - yoda_condition
-
-attributes:
-  always_on_same_line:
-    - "@IBSegueAction"
-    - "@IBAction"
-    - "@NSManaged"
-    - "@objc"
 
 identifier_name:
   allowed_symbols: ["_"]

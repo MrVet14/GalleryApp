@@ -14,9 +14,19 @@
 		A61D9F252B50BBC9007620D3 /* NetworkManagerErrorCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D9F242B50BBC9007620D3 /* NetworkManagerErrorCases.swift */; };
 		A61D9F272B50BC2C007620D3 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D9F262B50BC2C007620D3 /* PhotoModel.swift */; };
 		A61D9F292B50C578007620D3 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D9F282B50C578007620D3 /* Configuration.swift */; };
+		A61D9F312B535C96007620D3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A61D9F302B535C96007620D3 /* Realm */; };
+		A61D9F332B535C96007620D3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A61D9F322B535C96007620D3 /* RealmSwift */; };
+		A61D9F352B535CFC007620D3 /* RealmDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D9F342B535CFC007620D3 /* RealmDBManager.swift */; };
+		A61D9F382B535E2D007620D3 /* PhotoDBObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D9F372B535E2D007620D3 /* PhotoDBObject.swift */; };
+		A61D9F3C2B537543007620D3 /* MainCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D9F3B2B537543007620D3 /* MainCollectionView.swift */; };
+		A61D9F3E2B53754F007620D3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D9F3D2B53754F007620D3 /* DetailView.swift */; };
+		A61D9F402B537FD5007620D3 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D9F3F2B537FD5007620D3 /* PhotoCollectionViewCell.swift */; };
+		A61D9F422B538181007620D3 /* LikeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D9F412B538181007620D3 /* LikeButtonView.swift */; };
+		A61D9F442B5384D0007620D3 /* UIControl Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D9F432B5384D0007620D3 /* UIControl Extension.swift */; };
+		A61D9F4D2B549A46007620D3 /* UIImage Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D9F4C2B549A46007620D3 /* UIImage Extension.swift */; };
 		A6B6D3832B4E089C00635852 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6D3822B4E089C00635852 /* AppDelegate.swift */; };
 		A6B6D3852B4E089C00635852 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6D3842B4E089C00635852 /* SceneDelegate.swift */; };
-		A6B6D3872B4E089C00635852 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6D3862B4E089C00635852 /* ViewController.swift */; };
+		A6B6D3872B4E089C00635852 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6D3862B4E089C00635852 /* MainViewModel.swift */; };
 		A6B6D38C2B4E08A000635852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B6D38B2B4E08A000635852 /* Assets.xcassets */; };
 		A6B6D38F2B4E08A000635852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B6D38D2B4E08A000635852 /* LaunchScreen.storyboard */; };
 		A6B6D3982B4E0F4100635852 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A6B6D3972B4E0F4100635852 /* Kingfisher */; };
@@ -28,10 +38,18 @@
 		A61D9F242B50BBC9007620D3 /* NetworkManagerErrorCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerErrorCases.swift; sourceTree = "<group>"; };
 		A61D9F262B50BC2C007620D3 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		A61D9F282B50C578007620D3 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		A61D9F342B535CFC007620D3 /* RealmDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDBManager.swift; sourceTree = "<group>"; };
+		A61D9F372B535E2D007620D3 /* PhotoDBObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDBObject.swift; sourceTree = "<group>"; };
+		A61D9F3B2B537543007620D3 /* MainCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionView.swift; sourceTree = "<group>"; };
+		A61D9F3D2B53754F007620D3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A61D9F3F2B537FD5007620D3 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		A61D9F412B538181007620D3 /* LikeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonView.swift; sourceTree = "<group>"; };
+		A61D9F432B5384D0007620D3 /* UIControl Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl Extension.swift"; sourceTree = "<group>"; };
+		A61D9F4C2B549A46007620D3 /* UIImage Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage Extension.swift"; sourceTree = "<group>"; };
 		A6B6D37F2B4E089C00635852 /* Gallery App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gallery App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B6D3822B4E089C00635852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6B6D3842B4E089C00635852 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A6B6D3862B4E089C00635852 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6B6D3862B4E089C00635852 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		A6B6D38B2B4E08A000635852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6B6D38E2B4E08A000635852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6B6D3902B4E08A000635852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +62,8 @@
 			files = (
 				A6B6D3982B4E0F4100635852 /* Kingfisher in Frameworks */,
 				A61D9F1C2B4F1DEF007620D3 /* SnapKit in Frameworks */,
+				A61D9F312B535C96007620D3 /* Realm in Frameworks */,
+				A61D9F332B535C96007620D3 /* RealmSwift in Frameworks */,
 				A61D9F1E2B4F1DEF007620D3 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,6 +74,7 @@
 		A61D9F112B4F145F007620D3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A61D9F362B535E18007620D3 /* RealmModels */,
 				A61D9F262B50BC2C007620D3 /* PhotoModel.swift */,
 			);
 			path = Model;
@@ -62,6 +83,7 @@
 		A61D9F122B4F146A007620D3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A6B6D3862B4E089C00635852 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -69,8 +91,11 @@
 		A61D9F132B4F1471007620D3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A61D9F472B548672007620D3 /* Elements */,
 				A6B6D38D2B4E08A000635852 /* LaunchScreen.storyboard */,
-				A6B6D3862B4E089C00635852 /* ViewController.swift */,
+				A61D9F3B2B537543007620D3 /* MainCollectionView.swift */,
+				A61D9F3F2B537FD5007620D3 /* PhotoCollectionViewCell.swift */,
+				A61D9F3D2B53754F007620D3 /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -96,6 +121,8 @@
 		A61D9F172B4F1AFF007620D3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A61D9F432B5384D0007620D3 /* UIControl Extension.swift */,
+				A61D9F4C2B549A46007620D3 /* UIImage Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -121,8 +148,25 @@
 		A61D9F212B50BB65007620D3 /* BD */ = {
 			isa = PBXGroup;
 			children = (
+				A61D9F342B535CFC007620D3 /* RealmDBManager.swift */,
 			);
 			path = BD;
+			sourceTree = "<group>";
+		};
+		A61D9F362B535E18007620D3 /* RealmModels */ = {
+			isa = PBXGroup;
+			children = (
+				A61D9F372B535E2D007620D3 /* PhotoDBObject.swift */,
+			);
+			path = RealmModels;
+			sourceTree = "<group>";
+		};
+		A61D9F472B548672007620D3 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				A61D9F412B538181007620D3 /* LikeButtonView.swift */,
+			);
+			path = Elements;
 			sourceTree = "<group>";
 		};
 		A6B6D3762B4E089C00635852 = {
@@ -178,6 +222,8 @@
 				A6B6D3972B4E0F4100635852 /* Kingfisher */,
 				A61D9F1B2B4F1DEF007620D3 /* SnapKit */,
 				A61D9F1D2B4F1DEF007620D3 /* SnapKit-Dynamic */,
+				A61D9F302B535C96007620D3 /* Realm */,
+				A61D9F322B535C96007620D3 /* RealmSwift */,
 			);
 			productName = "Gallery App";
 			productReference = A6B6D37F2B4E089C00635852 /* Gallery App.app */;
@@ -210,6 +256,7 @@
 			packageReferences = (
 				A6B6D3962B4E0F4100635852 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				A61D9F1A2B4F1DEF007620D3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A61D9F2F2B535C96007620D3 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = A6B6D3802B4E089C00635852 /* Products */;
 			projectDirPath = "";
@@ -259,12 +306,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A61D9F4D2B549A46007620D3 /* UIImage Extension.swift in Sources */,
+				A61D9F422B538181007620D3 /* LikeButtonView.swift in Sources */,
 				A61D9F272B50BC2C007620D3 /* PhotoModel.swift in Sources */,
-				A6B6D3872B4E089C00635852 /* ViewController.swift in Sources */,
+				A61D9F3E2B53754F007620D3 /* DetailView.swift in Sources */,
+				A61D9F402B537FD5007620D3 /* PhotoCollectionViewCell.swift in Sources */,
+				A61D9F352B535CFC007620D3 /* RealmDBManager.swift in Sources */,
+				A6B6D3872B4E089C00635852 /* MainViewModel.swift in Sources */,
 				A61D9F292B50C578007620D3 /* Configuration.swift in Sources */,
 				A61D9F252B50BBC9007620D3 /* NetworkManagerErrorCases.swift in Sources */,
 				A6B6D3832B4E089C00635852 /* AppDelegate.swift in Sources */,
 				A6B6D3852B4E089C00635852 /* SceneDelegate.swift in Sources */,
+				A61D9F442B5384D0007620D3 /* UIControl Extension.swift in Sources */,
+				A61D9F382B535E2D007620D3 /* PhotoDBObject.swift in Sources */,
+				A61D9F3C2B537543007620D3 /* MainCollectionView.swift in Sources */,
 				A61D9F232B50BB86007620D3 /* URLSessonNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -392,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -415,6 +470,7 @@
 				INFOPLIST_FILE = "Gallery App/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Photo Stream";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to save picture to your library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
@@ -428,9 +484,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vitalivyucheiski.Gallery-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Develop;
 		};
@@ -447,6 +507,7 @@
 				INFOPLIST_FILE = "Gallery App/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Photo Stream";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need access to save picture to your library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
@@ -460,9 +521,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vitalivyucheiski.Gallery-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Production;
 		};
@@ -498,6 +563,14 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		A61D9F2F2B535C96007620D3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.45.3;
+			};
+		};
 		A6B6D3962B4E0F4100635852 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -518,6 +591,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A61D9F1A2B4F1DEF007620D3 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
+		};
+		A61D9F302B535C96007620D3 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A61D9F2F2B535C96007620D3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		A61D9F322B535C96007620D3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A61D9F2F2B535C96007620D3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 		A6B6D3972B4E0F4100635852 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
